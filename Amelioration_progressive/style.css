@@ -1,48 +1,113 @@
 /* CSS Document */
-html {background-color: #070749;
+html {
+  background-color: #070749;
+}
+.date {
+  background-color: #ffff00;
+  margin-left: 70%;
 }
 body {
-    background-color: #ffffff;
-    font-size: 15px ;
-    font-family: serif;
-    color: #14213d ;
-    width: 90%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-left: 5px;
-    margin: auto;
+  background-color: #ffffff;
+  background: linear-gradient(#5eadf5, #121a23);
+  background-image: url(chine.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-left: 5px;
+  margin: auto;
 }
-h1 {color: #59544b;
+h1 {
+  color: #59544b;
 }
 
-p {line-height: 2.5 ;
+p {
+  line-height: 2.5;
 }
 
 q {
-    font-style: italic ;
+  font-style: italic;
+}
+img {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+  border: #ffffff solid;
+}
+
+body > ul {
+  font-weight: bold;
+}
+ul li:first-child:after {
+  content: url(bien.png);
+}
+ul li:nth-child(2):after {
+  content: url(mal.png);
+}
+ul li:nth-child(3):after {
+  content: url(chat.png);
+}
+
+.villageois {
+  border-left: 3px solid #620b74;
+}
+.fermier {
+  border-left: 3px solid #287710;
 }
 blockquote {
-            width: 50%;
-            margin : 0px 250px;
-            font-size: 160% ;
-            background-color: #f3a2db;
-            border-left: 3px solid #b3001b;
-            padding-left: 20px;
-            padding-top: 80px;
-            padding-bottom: 80px;
+  font-style: italic;
+  width: 50%;
+  margin: 0px 250px;
+  font-size: 160%;
+  background-color: #f3a2db;
+  border-left: 3px solid #b3001b;
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  clear: both;
+  margin-top: 10%;
 }
 a {
-    font-size: 20px ;
-    text-decoration: none; 
+  font-size: 20px;
+  text-decoration: none;
 }
 a:hover {
-    background-color: #FFFF00;
-    color: rgb(0, 2, 128);
-    }
-    
-.bien {color: #c62e65;
+  background-color: #ffff00;
+  color: rgb(0, 2, 128);
 }
-.mal {color: #b3001b;
+
+.bien {
+  color: #5edd15;
+  text-transform: uppercase;
+}
+.mal {
+  color: #b3001b;
+  text-transform: uppercase;
+}
+table {
+  width: 50%;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #121a23;
+}
+.notification {
+  background: #ffffdd;
+  padding: 0.5rem 1rem;
+  border: 3px solid #ddddcc;
+  width: 250px;
+  font-weight: bold;
+  color: #333300;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  /* rajoute le code nécessaire ici*/
 }
