@@ -1,0 +1,48 @@
+/* CSS Document */
+html {background-color: #070749;
+}
+body {
+    background-color: #ffffff;
+    font-size: 15px ;
+    font-family: serif;
+    color: #14213d ;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 5px;
+    margin: auto;
+}
+h1 {color: #59544b;
+}
+
+p {line-height: 2.5 ;
+}
+
+q {
+    font-style: italic ;
+}
+blockquote {
+            width: 50%;
+            margin : 0px 250px;
+            font-size: 160% ;
+            background-color: #f3a2db;
+            border-left: 3px solid #b3001b;
+            padding-left: 20px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+}
+a {
+    font-size: 20px ;
+    text-decoration: none; 
+}
+a:hover {
+    background-color: #FFFF00;
+    color: rgb(0, 2, 128);
+    }
+    
+.bien {color: #c62e65;
+}
+.mal {color: #b3001b;
+}
